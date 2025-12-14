@@ -1,70 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberto García Toquero | Desarrollador Web Junior</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Roberto García Toquero</h1>
-        <p>Desarrollador Web Junior | DAW</p>
-        <p>Misión actual: Prácticas FCT</p>
+    <header class="hero">
+        <div class="hero-main">
+            <h1>Roberto García Toquero</h1>
+            <p class="hero-role">Desarrollador Web Junior | DAW</p>
+            <p class="hero-mision">Misión actual: Prácticas FCT</p>
+        </div>
     </header>
-    <main>
-    <section id="perfil">
-        <h2>Perfil</h2>
-        <p>Estudiante de Desarrollo de Aplicaciones Web (DAW), con formación práctica en desarrollo web frontend y backend</p>
-        <p>Experiencia en HTML, CSS, JavaScript, PHP, Java y bases de datos SQL, aplicada en proyectos académicos y personales</p>
-        <p>Perfil responsable, con capacidad de aprendizaje y adaptación, orientado a incorporarse a un entorno profesional de desarrollo</p>
-    </section>
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <p>Frontend</p>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>JQuery</li>
-            <li>Bootstrap</li>
-        </ul>
+    <main class="container">
+        <div class="layout">
+            <div class="main-column">
+                <section id="perfil">
+                    <h2>Perfil</h2>
+                    <p>Estudiante de Desarrollo de Aplicaciones Web (DAW), con formación práctica en desarrollo web
+                        frontend y backend con experiencia práctica en la creación de aplicaciones web claras,
+                        funcionales y bien estructuradas</p>
+                    <p>Experiencia en HTML, CSS, JavaScript, PHP, Java y bases de datos SQL, aplicada en proyectos
+                        académicos y personales, aplicando buenas prácticas de organización y aprendizaje continuo</p>
+                    <p>Busco incorporarme a un entorno profesional donde seguir creciendo como desarrollador web y
+                        aportar compromiso y capacidad de adaptación.</p>
+                </section>
 
-        <ul>
-            <p>Backend</p>
-            <li>PHP</li>
-            <li>Java</li>
-        </ul>
-        
-        <ul>
-            <p>Bases de Datos</p>
-            <li>MySQL</li>
-            <li>SQL</li>
-        </ul>
-        
-        <ul>
-            <p>Herramientas</p>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Metodologías ágiles</li>
-        </ul>
-    </section>
+                <section id="stats">
 
-    <section id="proyectos">
-        <h2>Proyecto 1</h2>
-        <h2>Proyecto 2</h2>
-    </section>
-    <section id="formacion">
-        <p>Técnico Superior en Desarrollo de Aplicaciones Web (DAW) – ILERNA</p>
-        <p>Curso de Git- Universidad Politecnica de Madrid</p>
-        <p>Certificado Profesional en Productos Audiovisuales Multimedia Interactivos</p>  
-        <p>Certificado de Análisis de Datos – CEOE  </p>   
-    </section>
-    <section id="contacto">
-        <p>Email</p>
-        <p>LinkedIn</p>
-        <p>GitHub</p>
-    </section>
-</main>
+                    <h2>Estado del Personaje</h2>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-label">Nivel</span>
+                            <span class="stat-value">Junior</span>
+                        </div>
+
+
+
+                        <div class="stat-card">
+                            <span class="stat-label">Rol</span>
+                            <span class="stat-value">Web Developer</span>
+                        </div>
+
+
+
+                        <div class="stat-card">
+                            <span class="stat-label">Stack principal</span>
+                            <span class="stat-value">JavaScript · PHP</span>
+                        </div>
+
+
+
+                        <div class="stat-card">
+                            <span class="stat-label">Disponibilidad</span>
+                            <span class="stat-value">Prácticas FCT</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="proyectos">
+                    <h2>Proyectos</h2>
+
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>Cartas Zener- Simulación Web</h3>
+                            <p class="project-desc">
+                                Aplicación web que simula una tirada de 30 cartas Zener aleatorias y calcula
+                                automáticamente el número de aciertos
+                            </p>
+                            <p class="project-tech">
+                                <strong>Tecnologías:</strong> HTML, CSS, JavaScript,PHP
+                            </p>
+
+                            <div class="project-links">
+                                <a href="https://github.com/Toquero21/cartasZener.git" target="_blank">Ver código</a>
+                                <a href="https://cartaszener.free.nf" target="_blank">Ver demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div><!--Main column-->
+
+            <aside class="side-column">
+                <section id="habilidades">
+                    <h2>Habilidades</h2>
+                    <div class="skill-grid">
+                        <div class="skills-block">
+                            <p class="skill-title">Frontend</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>JQuery</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="skills-block">
+                            <p class="skill-title">Backend</p>
+                            <ul>
+                                <li>PHP</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
+                        <div class="skills-block">
+                            <p class="skill-title">Bases de Datos</p>
+                            <ul>
+                                <li>MySQL</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+                        <div class="skills-block">
+                            <p class="skill-title">Herramientas</p>
+                            <ul>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                                <li>Metodologías ágiles (Scrum)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="formacion" class="aside-card">
+
+                    <h2>Formación</h2>
+
+                    <div class="formation-item">
+                        <p class="formation-title">Técnico Superior en Desarrollo de Aplicaciones Web (DAW)</p>
+                        <p class="formation-place">ILERNA</p>
+                    </div>
+
+                    <div class="formation-item">
+                        <p class="formation-title">Curso de Git y GitHub</p>
+                        <p class="formation-place">MOOC Universidad Politecnica de Madrid</p>
+                    </div>
+
+                    <div class="formation-item">
+                        <p class="formation-title">Certificado Profesional en Productos Audiovisuales Multimedia
+                            Interactivos</p>
+                        <p class="formation-place">Junta de Comunidades de Castilla- La Mancha</p>
+                    </div>
+
+                    <div class="formation-item">
+                        <p class="formation-title">Certificado de Análisis de Datos con Excel; Power Query y Power Pivot
+                        </p>
+                        <p class="formation-place">CEOE- Curso online</p>
+                    </div>
+                </section>
+
+                <section id="contacto" class="aside-card">
+                    <h2>Contacto</h2>
+                    <ul class="contact-list">
+                        <li><a href="mailto:toquero21@gmail.com">Correo electrónico</a></li>
+                        <li><a href="https://www.linkedin.com/in/roberto-garcia-toquero-3a46722b2/">LinkedIn</a></li>
+                        <li><a href="https://github.com/Toquero21">GitHub</a></li>
+                    </ul>
+                </section>
+
+            </aside>
+        </div>
+    </main>
 </body>
+
 </html>
